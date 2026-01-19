@@ -8,6 +8,12 @@
 .bold {
     font-weight: bold;
 }
+.padding {
+    padding: 7vh 8vw;
+}
+.text_center {
+    text-align: center;
+}
 
 body {
     background-color: #FBF5E9;
@@ -125,4 +131,24 @@ nav p {
     height: 12rem;
     object-fit: cover;
     border-radius: 0.25rem;
+}
+
+#projectList {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#projectList .project_box {
+    width: 49%;
+    padding: 3vh 2vw;
+}
+#projectList .project_box img {
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+#projectList .project_box p {
+    font-size: 1.20rem;
 }
