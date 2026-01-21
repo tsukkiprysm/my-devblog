@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Entries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <p>Grazi's Devblog</p>
+    <a href="#">Entries</a>
+    <a href="#">About me</a>
+</nav>
+
+<main class="padding">
+    <h1 class="text_center">All entries</h1>
+    <input type="search" placeholder="Search for keywords..." name="q">
+    <div>
+        <select name="project" id="selectProject" required>
+            <option value="" disabled selected hidden>Project</option>
+            <option value="lumiar">Lumiar</option>
+            <option value="alquimista">O Alquimista</option>
+        </select>
+        <select name="year" id="selectYear" required>
+            <option value="" disabled selected hidden>Year</option>
+            <option value="lumiar">2026</option>
+            <option value="alquimista">2025</option>
+        </select>
+    </div>
+    <section id="entriesList">
+        <div class="entry_box">
+            <div class="entry_text">
+                <h2>Header Title</h2>
+                <p>June 28, 2025</p>
+                <p class="entry_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <img src="img/entry_placeholder.jpg">
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
