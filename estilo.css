@@ -187,3 +187,25 @@ select:focus {
 #entriesList .entry_box img{
     width: 22%;
 }
+
+#about_top {
+    display: flex;
+    flex-direction: row;
+}
+#about_top img {
+    width: 40%;
+}
+.top_text {
+    margin-top: 2rem;
+    padding-right: 6vw;
+}
+.top_text h1, .top_text h2 {
+    text-align: center;
+    margin: 0.40rem 0;
+}
+.top_text p {
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: 1.20rem;
+    margin: 1rem 0;
+}
