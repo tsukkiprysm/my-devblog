@@ -23,8 +23,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #F6E9CB;
     text-align: center;
+    background-color: #F6E9CB;
     justify-content: space-around;
     padding: 6vh 20vw 3vh 20vw;
     font-weight: bold;
@@ -37,6 +37,35 @@ nav a {
 nav p {
     font-size: 1.40rem;
 }
+#open-nav {
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    padding: 1em;
+}
+#close-nav {
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+.nav-background {
+    background-color: #F6E9CB;
+}
+
+#overlay {
+    position: fixed;
+    inset: 0;
+    background-color: #391809;
+    opacity: 50%;
+    z-index: 9;
+    display: none;
+    transition: background-color 300ms ease-out;
+}
+nav.show ~ #overlay {
+    display: block;
+}
 
 #welcome {
     display: flex;
@@ -45,7 +74,7 @@ nav p {
     justify-content: space-between;
     align-items: center;
     padding: 6vh 8vw;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 1.50vw, 2.50rem);
 }
 #welcome img {
     width: 13%;
@@ -78,6 +107,8 @@ nav p {
 
 #posts {
     padding: 6vh 8vw;
+}
+#lists {
     display: flex;
     flex-direction: row;
 }
@@ -131,6 +162,9 @@ nav p {
     height: 12rem;
     object-fit: cover;
     border-radius: 0.25rem;
+}
+#selectPosts {
+    display: none;
 }
 
 #projectList {
@@ -189,23 +223,136 @@ select:focus {
 }
 
 #about_top {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "box-2" "box-1" "box-1"
+    "box-2" "box-3" "box-3"
+    "box-2" "box-4" "box-4";
 }
+
 #about_top img {
     width: 40%;
 }
-.top_text {
-    margin-top: 2rem;
-    padding-right: 6vw;
-}
-.top_text h1, .top_text h2 {
-    text-align: center;
-    margin: 0.40rem 0;
-}
+
 .top_text p {
     text-align: justify;
     text-indent: 2rem;
-    font-size: 1.20rem;
+    font-size: clamp(1rem, 1.40vw, 2.50rem);
     margin: 1rem 0;
+}
+
+@media only screen and (max-width: 576px) {
+    #plant2 {
+        display: none;
+    }
+    #welcome {
+        text-align: right;
+        padding: 6vh 6vw;
+    }
+    #welcome img {
+        width: 36%;
+    }
+
+    #selectPosts {
+        display: block;
+        font-size: 1.75rem;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        color: #391809;
+        font-weight: bold;
+    }
+    #selectPosts:focus {
+        outline: none;
+    }
+    .latest_column, .project_column {
+        width: 100%;
+    }
+    .latest_column h1, .project_column h1 {
+        display: none;
+    }
+    #lists {
+        display: block;
+    }
+    #wlcm_date {
+        font-size: 1.25rem;
+    }
+    .entry_box {
+        padding: 2vh 4vw;
+    }
+    .entry_box img {
+        display: none;
+    }
+    .entry_text {
+        width: 100%;
+    }
+    .entry_paragraph {
+        font-size: 1.05rem;
+    }
+    .project_box {
+        padding: 2vh 4vw;
+    }
+    .project_box img {
+        height: 10rem;
+    }
+
+    #projectList {
+        flex-direction: column;
+    }
+    #projectList .project_box {
+        width: 100%;
+        padding: 2vh 4vw;
+        gap: 2vh;
+    }
+    #projectList .project_box img {
+        height: 10rem;
+    }
+
+    .top_text {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    nav {
+        padding: 6vh 14vw 3vh 14vw;
+    }
+    nav a {
+        font-size: 1.20rem;
+    }
+    nav p {
+        font-size: 1.30rem;
+    }
+}
+@media only screen and (max-width: 836px) {
+    #logo {
+        display: none;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: min(15em, 100%);
+        z-index: 10;
+        flex-direction: column;
+        justify-content: start;
+        padding: 2vh 3vw;
+        border-left: 3px solid #B9926B;
+        transition: right 300ms ease-out;
+    }
+    nav.show {
+        right: 0;
+    }
+    nav a {
+        padding: 1rem 0;
+    }
+    #open-nav {
+        display: block;
+    }
+    #close-nav {
+        display: block;
+    }
 }
