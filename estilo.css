@@ -222,27 +222,85 @@ select:focus {
     width: 22%;
 }
 
-#about_top {
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     grid-template-areas:
-    "box-2" "box-1" "box-1"
-    "box-2" "box-3" "box-3"
-    "box-2" "box-4" "box-4";
+    "box-2 box-1 box-1"
+    "box-2 box-3 box-3"
+    "box-2 box-4 box-4";
+}
+.grid-container img {
+    width: 100%;
+}
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-list img {
+    width: clamp(5rem, 12%, 20rem);
 }
 
-#about_top img {
-    width: 40%;
-}
-
-.top_text p {
+.normal_text {
     text-align: justify;
     text-indent: 2rem;
     font-size: clamp(1rem, 1.40vw, 2.50rem);
-    margin: 1rem 0;
+    padding-right: 5vw;
 }
 
+@media only screen and (max-width: 1000px) {
+    .grid-container {
+        gap: 0.55rem;
+        grid-template-areas:
+    "box-1 box-1 box-1"
+    "box-2 box-3 box-3"
+    "box-2 box-4 box-4";
+    }
+}
+@media only screen and (max-width: 836px) {
+    #logo {
+        display: none;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: min(15em, 100%);
+        z-index: 10;
+        flex-direction: column;
+        justify-content: start;
+        padding: 2vh 3vw;
+        border-left: 3px solid #B9926B;
+        transition: right 300ms ease-out;
+    }
+    nav.show {
+        right: 0;
+    }
+    nav a {
+        padding: 1rem 0;
+    }
+    #open-nav {
+        display: block;
+    }
+    #close-nav {
+        display: block;
+    }
+    .grid-container {
+        gap: 0.45rem;
+        grid-template-areas:
+    "box-1 box-1 box-1"
+    "box-2 box-3 box-3"
+    "box-4 box-4 box-4";
+    }
+    .skills-list {
+        justify-content: center;
+        gap: 3vw;
+    }
+}
 @media only screen and (max-width: 576px) {
     #plant2 {
         display: none;
@@ -310,49 +368,16 @@ select:focus {
         height: 10rem;
     }
 
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
     .top_text {
         padding: 0;
         margin: 0;
     }
-}
-@media only screen and (max-width: 1180px) {
-    nav {
-        padding: 6vh 14vw 3vh 14vw;
-    }
-    nav a {
-        font-size: 1.20rem;
-    }
-    nav p {
-        font-size: 1.30rem;
-    }
-}
-@media only screen and (max-width: 836px) {
-    #logo {
-        display: none;
-    }
-    nav {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        height: 100vh;
-        width: min(15em, 100%);
-        z-index: 10;
-        flex-direction: column;
-        justify-content: start;
-        padding: 2vh 3vw;
-        border-left: 3px solid #B9926B;
-        transition: right 300ms ease-out;
-    }
-    nav.show {
-        right: 0;
-    }
-    nav a {
-        padding: 1rem 0;
-    }
-    #open-nav {
-        display: block;
-    }
-    #close-nav {
-        display: block;
+
+    .skills-list {
+        gap: 6vw;
     }
 }
