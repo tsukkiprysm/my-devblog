@@ -43,9 +43,10 @@ nav p {
 #open-nav {
     display: none;
     background-color: transparent;
-    border: none;
+    border: solid 2px #B9926B;
+    border-radius: 6px;
     margin-left: auto;
-    padding: 1em;
+    padding: 0.25rem;
 }
 #close-nav {
     display: none;
@@ -294,6 +295,9 @@ select:focus {
     }
     #close-nav {
         display: block;
+    }
+    .nav-background {
+        padding: 0.45rem;
     }
     .grid-container {
         gap: 0.45rem;
