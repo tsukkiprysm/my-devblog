@@ -258,6 +258,28 @@ select:focus {
     padding-right: 5vw;
 }
 
+.post_content {
+    margin-top: 7vh;
+}
+.post_content img {
+    width: 35%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.post_content p {
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(1rem, 1.40vw, 2.50rem);
+    margin-bottom: 2rem;
+}
+.post_date {
+    font-size: clamp(0.80rem, 1.20vw, 2.20rem);
+}
+
 @media only screen and (max-width: 1000px) {
     .grid-container {
         gap: 0.55rem;
@@ -390,5 +412,13 @@ select:focus {
 
     .skills-list {
         gap: 6vw;
+    }
+
+    .post_content img {
+        width: 100%;
+        height: 12rem;
+        border-radius: 0.55rem;
+        float: none;
+        margin-right: 0;
     }
 }

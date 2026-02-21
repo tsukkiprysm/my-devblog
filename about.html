@@ -1,43 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+---
+layout: default
+title: About me
+---
 
-<div class="nav-background">
-    <button id="open-nav" onclick="openNav()">
-        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#391809"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
-    </button>
-
-    <nav id="nav">
-        <button id="close-nav" onclick="closeNav()">
-            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#391809"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
-        </button>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <p id="logo">Grazi's Devblog</p>
-        <a href="entries.html">Entries</a>
-        <a href="#">About me</a>
-    </nav>
-</div>
-
-<div id="overlay" onclick="closeNav()"></div>
-
-<main class="padding">
+<div class="padding">
     <section class="grid-container">
         <div class="text_center" style="grid-area: box-1;">
             <h1>Hello!</h1>
             <h2>Pleasured to meet you!</h2>
         </div>
         <div class="" style="grid-area: box-2">
-            <img src="img/about_me.png" alt="">
+            <img src="/img/about_me.png" alt="">
         </div>
         <div class="about_text" style="grid-area: box-3">My name is Graziella, currently a college student at Universidade de Aveiro, in Portugal. At 16, I left my home country Brazil to study here in Europe, where I graduated highschool and started my superior education.</div>
         <div class="about_text" style="grid-area: box-4">My degree is in Multimedia and Technologies of Communication, and on my first year of college I fell in love with web design and front-end development, hence why I made this blog to practice my skills and share with the world what I can do.</div>
@@ -45,17 +18,12 @@
     <section id="skills">
         <h2 class="text_center">A little look into my skills set...</h2>
         <div class="skills-list">
-            <img src="img/github-icon.svg" alt="">
-            <img src="img/js-icon.svg" alt="">
-            <img src="img/figma-icon.svg" alt="">
-            <img src="img/html-icon.svg" alt="">
-            <img src="img/css-icon.svg" alt="">
+            <img src="/img/github-icon.svg" alt="">
+            <img src="/img/js-icon.svg" alt="">
+            <img src="/img/figma-icon.svg" alt="">
+            <img src="/img/html-icon.svg" alt="">
+            <img src="/img/css-icon.svg" alt="">
         </div>
         <h2 class="text_center">And growing!</h2>
     </section>
-</main>
-
-<script src="script.js" defer></script>
-
-</body>
-</html>
+</div>
