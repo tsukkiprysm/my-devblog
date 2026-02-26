@@ -1,4 +1,5 @@
 title: Grazi's Devblog
 markdown: kramdown
-url: "https://tsukkiprysm.github.io/my-devblog/"
+url: "https://tsukkiprysm.github.io"
+baseurl: "/my-devblog/"
 permalink: /entries/:title/
