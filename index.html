@@ -4,13 +4,13 @@ title: Grazi's Devblog
 ---
 
 <section id="welcome">
-    <img src="img/plant.gif">
+    <img src="{{'img/plant.gif' | relative_url}}" alt=""/>
     <div>
         <p id="wlcm_date" class="bold">June 28, 2025</p>
         <p>Hi, welcome to Grazi’s dev blog!</p>
-        <a class="light_link" href="#">Want to know more about?</a>
+        <a class="light_link" href="{{'/about/' | relative_url}}">Want to know more about?</a>
     </div>
-    <img id="plant2" src="img/plant.gif">
+    <img id="plant2" src="{{'img/plant.gif' | relative_url}}" alt="">
 </section>
 
 <section id="currentProject">
@@ -32,7 +32,7 @@ title: Grazi's Devblog
                     <p>June 28, 2025</p>
                     <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <img src="img/entry_placeholder.jpg">
+                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
             </div>
             <div class="entry_box">
                 <div class="entry_text">
@@ -40,7 +40,7 @@ title: Grazi's Devblog
                     <p>June 28, 2025</p>
                     <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <img src="img/entry_placeholder.jpg">
+                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
             </div>
             <div class="entry_box">
                 <div class="entry_text">
@@ -48,21 +48,21 @@ title: Grazi's Devblog
                     <p>June 28, 2025</p>
                     <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <img src="img/entry_placeholder.jpg">
+                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
             </div>
             <a class="light_link" href="entries.html">See all</a>
         </div>
         <div id="project_column">
             <h1>Other projects</h1>
             <div class="project_box">
-                <img src="img/project_placeholder.jpg">
+                <img src="{{'img/project_placeholder.jpg' | relative_url}}" alt="">
                 <h2>Header Title</h2>
             </div>
             <div class="project_box">
-                <img src="img/project_placeholder.jpg">
+                <img src="{{'img/project_placeholder.jpg'| relative_url}}" alt="">
                 <h2>Header Title</h2>
             </div>
-            <a class="light_link" href="projects.html">See all</a>
+            <a class="light_link" href="{{ '/projects.html' | relative_url }}">See all</a>
         </div>
     </div>
 </section>
