@@ -26,31 +26,21 @@ title: Grazi's Devblog
     <div id="lists">
         <div id="latest_column">
             <h1>Latest entries</h1>
-            <div class="entry_box">
-                <div class="entry_text">
-                    <h2>Header Title</h2>
-                    <p>June 28, 2025</p>
-                    <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {% for post in site.posts limit:3 %}
+            <a href="{{ post.url | relative_url }}" class="entry_link">
+                <div class="entry_box">
+                    <div class="entry_text">
+                        <h2>{{ post.title }}</h2>
+                        <p>{{ post.date | date: "%B %d, %Y"}}</p>
+                        <p class="normal_fs">{{ post.excerpt }}</p>
+                    </div>
+                    {% if post.image %}
+                    <img src="{{ post.image | relative_url }}" alt="">
+                    {% endif %}
                 </div>
-                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
-            </div>
-            <div class="entry_box">
-                <div class="entry_text">
-                    <h2>Header Title</h2>
-                    <p>June 28, 2025</p>
-                    <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
-            </div>
-            <div class="entry_box">
-                <div class="entry_text">
-                    <h2>Header Title</h2>
-                    <p>June 28, 2025</p>
-                    <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <img src="{{'img/entry_placeholder.jpg' | relative_url}}" alt="">
-            </div>
-            <a class="light_link" href="entries.html">See all</a>
+            </a>
+            {% endfor %}
+            <a class="light_link see_all" href="entries.html">See all</a>
         </div>
         <div id="project_column">
             <h1>Other projects</h1>
@@ -62,7 +52,7 @@ title: Grazi's Devblog
                 <img src="{{'img/project_placeholder.jpg'| relative_url}}" alt="">
                 <h2>Header Title</h2>
             </div>
-            <a class="light_link" href="{{ '/projects.html' | relative_url }}">See all</a>
+            <a class="light_link see_all" href="{{ '/projects.html' | relative_url }}">See all</a>
         </div>
     </div>
 </section>

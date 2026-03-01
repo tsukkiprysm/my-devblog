@@ -116,7 +116,7 @@ nav.show ~ #overlay {
     display: flex;
     flex-direction: row;
 }
-#posts a {
+.see_all {
     display: block;
     width: max-content;
     margin: 2rem auto;
@@ -131,6 +131,11 @@ nav.show ~ #overlay {
 .hidden {
     display: none;
 }
+.entry_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 .entry_box {
     background-color: #F6E9CB;
     padding: 2vh 1vw;
@@ -139,6 +144,7 @@ nav.show ~ #overlay {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    cursor: pointer;
 }
 .entry_box img {
     width: 40%;
