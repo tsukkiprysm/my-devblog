@@ -40,7 +40,7 @@ title: Grazi's Devblog
                 </div>
             </a>
             {% endfor %}
-            <a class="light_link see_all" href="entries.html">See all</a>
+            <a class="light_link see_all" href="{{ '/entries/' | relative_url }}">See all</a>
         </div>
         <div id="project_column">
             <h1>Other projects</h1>
@@ -52,7 +52,7 @@ title: Grazi's Devblog
                 <img src="{{'img/project_placeholder.jpg'| relative_url}}" alt="">
                 <h2>Header Title</h2>
             </div>
-            <a class="light_link see_all" href="{{ '/projects.html' | relative_url }}">See all</a>
+            <a class="light_link see_all" href="{{ '/projects/' | relative_url }}">See all</a>
         </div>
     </div>
 </section>
