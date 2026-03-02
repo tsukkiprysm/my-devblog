@@ -3,3 +3,7 @@ markdown: kramdown
 url: "https://tsukkiprysm.github.io"
 baseurl: "/my-devblog"
 permalink: /entries/:title/
+collections:
+  projects:
+    output: true
+    permalink: /project/:name/

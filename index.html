@@ -44,14 +44,12 @@ title: Grazi's Devblog
         </div>
         <div id="project_column">
             <h1>Other projects</h1>
+            {% for project in site.projects limit:2 %}
             <div class="project_box">
-                <img src="{{'img/project_placeholder.jpg' | relative_url}}" alt="">
-                <h2>Header Title</h2>
+                <img src="{{ project.image | relative_url }}" alt="">
+                <h2>{{ project.title }}</h2>
             </div>
-            <div class="project_box">
-                <img src="{{'img/project_placeholder.jpg'| relative_url}}" alt="">
-                <h2>Header Title</h2>
-            </div>
+            {% endfor %}
             <a class="light_link see_all" href="{{ '/projects/' | relative_url }}">See all</a>
         </div>
     </div>
