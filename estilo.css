@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #391809;
+    color: #4A342A;
 }
 .bold {
     font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: #FBF5E9;
+    background-color: #FAF9F6;
 }
 
 nav {
@@ -27,11 +27,11 @@ nav {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     justify-content: space-around;
     padding: 6vh 20vw 3vh 20vw;
     font-weight: bold;
-    border-bottom: 3px solid #B9926B;
+    border-bottom: 3px solid #7D5A44;
 }
 nav a {
     text-decoration: none;
@@ -43,7 +43,7 @@ nav p {
 #open-nav {
     display: none;
     background-color: transparent;
-    border: solid 2px #B9926B;
+    border: solid 2px #7D5A44;
     border-radius: 6px;
     margin-left: auto;
     padding: 0.25rem;
@@ -55,13 +55,13 @@ nav p {
     margin-left: auto;
 }
 .nav-background {
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
 }
 
 #overlay {
     position: fixed;
     inset: 0;
-    background-color: #391809;
+    background-color: #4A342A;
     opacity: 50%;
     z-index: 9;
     display: none;
@@ -92,16 +92,16 @@ nav.show ~ #overlay {
 .light_link {
     font-weight: bold;
     font-style: italic;
-    color: #774723;
+    color: #7D5A44;
 }
 .light_link:hover {
-    color: #B9926B;
+    color: #7D5A44;
 }
 
 #currentProject {
     display: flex;
     flex-direction: column;
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     padding: 4vh 0;
     text-align: center;
     font-weight: bold;
@@ -137,7 +137,7 @@ nav.show ~ #overlay {
     display: block;
 }
 .entry_box {
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     padding: 2vh 1vw;
     margin-top: 1rem;
     border-radius: 0.55rem;
@@ -159,7 +159,7 @@ nav.show ~ #overlay {
     gap: 0.50rem;
 }
 .project_box {
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     padding: 2vh 1vw;
     margin-top: 1rem;
     border-radius: 0.55rem;
@@ -194,29 +194,29 @@ nav.show ~ #overlay {
 }
 
 input[type="search"] {
-    color: #391809;
+    color: #4A342A;
     margin: 1rem 0;
     padding: 0.55rem 0.65rem;
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     width: 100%;
     border-radius: 0.45rem;
-    border: 1px solid #B9926B;
+    border: 1px solid #7D5A44;
 }
 input[type="search"]:focus {
-    outline-color: #774723;
+    outline-color: #7D5A44;
 }
 input[type="search"]::placeholder {
-    color: #774723;
+    color: #7D5A44;
 }
 select {
-    color: #774723;
+    color: #7D5A44;
     padding: 0.40rem 0.35rem;
-    background-color: #F6E9CB;
+    background-color: #E6DAC8;
     border-radius: 0.45rem;
-    border: 1px solid #B9926B;
+    border: 1px solid #7D5A44;
 }
 select:focus {
-    outline-color: #774723;
+    outline-color: #4A342A;
 }
 #entriesList {
     margin: 3rem 0;
@@ -308,7 +308,7 @@ select:focus {
         flex-direction: column;
         justify-content: start;
         padding: 2vh 3vw;
-        border-left: 3px solid #B9926B;
+        border-left: 3px solid #7D5A44;
         transition: right 300ms ease-out;
     }
     nav.show {
@@ -356,7 +356,7 @@ select:focus {
         background-color: transparent;
         border: none;
         padding: 0;
-        color: #391809;
+        color: #4A342A;
         font-weight: bold;
     }
     #selectPosts:focus {

@@ -2,6 +2,6 @@
 layout: project
 title: "O Alquimista"
 image: /img/project_alquimista.jpg
-excerpt: Um website que relembra um ambiente noturno de um bar dedicado a receitas de coquetéis e mocktails entregando vários conhecimentos sobre mixologia que você pode guardar na sua biblioteca conforme suas necessidades.
+excerpt: Everyone enjoys a good drink, so wouldn't it be great to be able to do them yourself? O Alquimista wants to help you with that! Here you can find a huge catalogue of cocktails and mocktails recipes, save your own drink collections in the library, and share experiences and tips with other users!
 order: 2
 ---
