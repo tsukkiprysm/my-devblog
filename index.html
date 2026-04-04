@@ -27,7 +27,7 @@ title: Grazi's Devblog
         <div id="latest_column">
             <h1>Latest entries</h1>
             {% for post in site.posts limit:3 %}
-            <a href="{{ post.url | relative_url }}" class="entry_link">
+            <a href="{{ post.url | relative_url }}" class="box_link">
                 <div class="entry_box">
                     <div class="entry_text">
                         <h2>{{ post.title }}</h2>
@@ -45,10 +45,12 @@ title: Grazi's Devblog
         <div id="project_column">
             <h1>Other projects</h1>
             {% for project in site.projects limit:2 %}
-            <div class="project_box">
-                <img src="{{ project.image | relative_url }}" alt="">
-                <h2>{{ project.title }}</h2>
-            </div>
+            <a href="{{ project.url | relative_url }}" class="box_link">
+                <div class="project_box">
+                    <img src="{{ project.image | relative_url }}" alt="">
+                    <h2>{{ project.title }}</h2>
+                </div>
+            </a>
             {% endfor %}
             <a class="light_link see_all" href="{{ '/projects/' | relative_url }}">See all</a>
         </div>
