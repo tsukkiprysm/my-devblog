@@ -9,11 +9,11 @@ permalink: /projects/
     <section id="projectList">
         {% assign projetos_ordenados = site.projects | sort: "order" %}
         {% for project in projetos_ordenados %}
-        <div class="project_box">
+        <a href="{{ project.url | relative_url }}" class="project_box">
             <h2>{{ project.title }}</h2>
             <img src="{{ project.image | relative_url}}">
             <p class="normal_fs">{{ project.excerpt }}</p>
-        </div>
+        </a>
         {% endfor %}
     </section>
 </div>

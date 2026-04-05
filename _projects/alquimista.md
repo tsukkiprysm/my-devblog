@@ -15,7 +15,7 @@ authors:
     linkedin: https://www.linkedin.com/in/gabrielazevedo73/
   - name: Nicole Santos
     github:
-figma_embed: '<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/Lc6e4yEsKano28SJp7rKcC/O-Alquimista?node-id=1164-540&viewport=21%2C457%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1164%3A540&show-proto-sidebar=1&page-id=1133%3A390&embed-host=share" allowfullscreen></iframe>'
+figma_embed: '<iframe src="https://embed.figma.com/proto/Lc6e4yEsKano28SJp7rKcC/O-Alquimista?node-id=1164-540&viewport=21%2C457%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1164%3A540&show-proto-sidebar=1&page-id=1133%3A390&embed-host=share" allowfullscreen></iframe>'
 title_font: "'Lily Script One', system-ui"
 title_weight: "400"
 ---
@@ -37,6 +37,7 @@ Just like the social and relaxed atmosphere of a bar, O Alquimista also offers a
     </div>
     <div style="flex-basis: 30%">
         <h2>Authors</h2>
+        <div class="authors">
         {% for author in page.authors %}
             <div class="author_links">
                 <h3> {{ author.name }} </h3>
@@ -54,6 +55,7 @@ Just like the social and relaxed atmosphere of a bar, O Alquimista also offers a
                 </div>
             </div>
         {% endfor %}
+        </div>
     </div>
 </div>
 

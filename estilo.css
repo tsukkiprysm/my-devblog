@@ -201,6 +201,8 @@ nav.show ~ #overlay {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
 .project_box img {
     height: 12rem;
@@ -343,7 +345,6 @@ select:focus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .usb_authors ul {
     text-align: center;
@@ -352,6 +353,10 @@ select:focus {
 }
 .usb_authors ul li {
     margin-bottom: 0.80rem;
+}
+.authors {
+    display: flex;
+    flex-direction: column;
 }
 .author_links {
     margin-bottom: 0.80rem;
@@ -394,6 +399,11 @@ select:focus {
 }
 #cp_div div {
     flex-basis: 60%;
+}
+iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 80vh;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -447,6 +457,39 @@ select:focus {
     .skills-list {
         justify-content: center;
         gap: 3vw;
+    }
+    .usb_authors {
+        display: flex;
+        flex-direction: column;
+    }
+    .authors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+        justify-content: center;
+    }
+    #logo_div {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    #logo_div div {
+        flex-basis: 100%;
+    }
+    #logo_div img {
+        flex-basis: 100%;
+        width: 50%;
+    }
+    #cp_div {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #cp_div img {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    #cp_div div {
+        flex-basis: 100%;
     }
 }
 @media only screen and (max-width: 576px) {

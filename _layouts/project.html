@@ -39,10 +39,12 @@
     <hr class="divider">
         {{ content }}
     <hr class="divider">
+    {% if page.figma_embed %}
     <h2>Site preview</h2>
     <div style="text-align: center">
         {{ page.figma_embed }}
     </div>
+    {% endif %}
 </main>
 
 <footer></footer>

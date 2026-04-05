@@ -18,7 +18,7 @@ authors:
     linktree: https://linktr.ee/hidekiofc
   - name: Nicole Santos
     linkedin:
-figma_embed: '<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/akkrVf6t7372bq0Xi7TsKY/Lumiar?node-id=815-451&p=f&viewport=-733%2C155%2C0.17&scaling=scale-down&content-scaling=fixed&starting-point-node-id=815%3A451&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>'
+figma_embed: '<iframe src="https://embed.figma.com/proto/akkrVf6t7372bq0Xi7TsKY/Lumiar?node-id=815-451&p=f&viewport=-733%2C155%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=815%3A451&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>'
 title_font: "'Pixelify Sans', sans-serif"
 title_weight: "700"
 ---
@@ -40,6 +40,7 @@ The main goal of Lumiar is to offer a friendly, welcoming space for users facing
     </div>
     <div style="flex-basis: 30%">
         <h2>Authors</h2>
+        <div class="authors">
         {% for author in page.authors %}
             <div class="author_links">
                 <h3> {{ author.name }} </h3>
@@ -67,6 +68,7 @@ The main goal of Lumiar is to offer a friendly, welcoming space for users facing
                 </div>
             </div>
         {% endfor %}
+        </div>
     </div>
 </div>
 
