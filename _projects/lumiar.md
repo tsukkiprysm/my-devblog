@@ -4,7 +4,7 @@ title: "Lumiar"
 subtitle: "A little buddy to help you manage yourself"
 image: /img/project_lumiar.jpg
 header_img: /img/lumiar_header.jpg
-excerpt: A nossa aplicação de telemóvel chama-se Lumiar e tem como conceito criar um espaço fantástico onde de forma gamificada o utilizador possa criar um planeador onde o utilizador irá inserir suas tarefas e estabelecer prioridades.
+excerpt: When your mind makes daily responsibilities feel impossible, you don’t have to carry that mental load alone. Lumiar is here to transform chaos into clarity by prioritizing your tasks and creating a custom weekly plan for you. With our cute Lumis cheering you on, we handle the planning so you can focus on living.
 order: 3
 authors:
   - name: Graziella Custódio

@@ -4,7 +4,7 @@ title: "My devblog!"
 subtitle: "My place to share my projects"
 image: /img/project_devblog.jpg
 header_img: /img/devblog_header.jpg
-excerpt: Everyone enjoys a good drink, so wouldn't it be great to be able to do them yourself? O Alquimista wants to help you with that! Here you can find a huge catalogue of cocktails and mocktails recipes, save your own drink collections in the library, and share experiences and tips with other users!
+excerpt: This is my place to share the process of the projects I make! From academic to personal projects, here you'll find all the insights and details of the websites, games and apps designed and developed by yours truly.
 order: 1
 title_font: "'Courier Prime', monospace"
 title_weight: "bold"
@@ -35,3 +35,11 @@ This is a space where I document my projects and their development process. In m
 ## Target-audience
 
 My target-audience is you, who’s reading this right now. Be it a friend, someone who found this by chance or a potencial employer. I hope the things written here can catch your attetion and inspire you in any way.
+
+<hr class="divider">
+
+## Project entries
+
+{% for post in site.posts %}
+
+{% endfor %}
