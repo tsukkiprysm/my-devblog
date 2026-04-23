@@ -4,10 +4,10 @@ title: "My devblog #03 Design Process: Continuation"
 date: 2025-08-05
 image: /img/postimg/p_md_050825.jpg
 excerpt: Estive com alguma dificuldade de decidir como ficaria a aparência...
-tags: [mydevblog]
+tags: [devblog]
 ---
 
-<img src="{{'/img/postimg/p_md_050825.jpg' | relative_url}}" alt="">
+    <img src="{{'/img/postimg/p_md_050825.jpg' | relative_url}}" alt="">
 
 Estive com alguma dificuldade de decidir como ficaria a aparência da página inicial deste blog. Fiz alguns experimentos e fui brincando com a disposição dos elementos para tentar encontrar a melhor solução e acho que consegui.
 

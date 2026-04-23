@@ -4,9 +4,9 @@ title: "My devblog #01 Introduction"
 date: 2025-07-25
 image: /img/postimg/p_md_250725.jpg
 excerpt: Queridos leitores, este é um blog desenhado e construído por mim...
-tags: [mydevblog]
+tags: [devblog]
 ---
-<img src="{{'/img/postimg/p_md_250725.jpg' | relative_url}}" alt="">
+    <img src="{{'/img/postimg/p_md_250725.jpg' | relative_url}}" alt="">
 
 Queridos leitores, este é um blog desenhado e construído por mim, Graziella Custódio, para treinar e por em prática o que tenho aprendido na universidade sobre UI/UX design, Web development (HTML, CSS, javascript) e outros conceitos aprendidos que tem relação a estes assuntos.
 

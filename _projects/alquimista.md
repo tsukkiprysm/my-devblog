@@ -25,72 +25,86 @@ A website inspired by the atmosphere of a bar at night, offering a wide range of
 
 Just like the social and relaxed atmosphere of a bar, O Alquimista also offers a social dimension, providing a discussion forum for users to share experiences, their own recipes, and connect with other mixology enthusiasts.
 
-<div class="usb_authors">
-    <div style="flex-basis: 70%">
-        <h2>Unique Selling Points</h2>
-        <ul>
-            <li>The existence of an adapter that alters the quantity of ingredients according to the amount of beverage the user wants to produce.</li>
-            <li>The "Hands-Free" option allows the preparation instructions to be read aloud with pauses, and the user can then proceed or repeat the step using voice commands.</li>
-            <li>A discussion forum for the community to share experiences with beverages, comment on opinions about drinks, and post their own recipes on a dedicated page.</li>
-            <li>A fun, youthful and distinct design.</li>
-        </ul>
-    </div>
-    <div style="flex-basis: 30%">
-        <h2>Authors</h2>
-        <div class="authors">
-        {% for author in page.authors %}
-            <div class="author_links">
-                <h3> {{ author.name }} </h3>
-                <div>
-                    {% if author.github %}
-                        <a href="{{ author.github }}" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    {% endif %}
-                    {% if author.linkedin %}
-                        <a href="{{ author.linkedin }}" target="_blank">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    {% endif %}
-                </div>
-            </div>
-        {% endfor %}
-        </div>
-    </div>
-</div>
+    <div class="usb_authors">
 
-<hr class="divider">
+        <div style="flex-basis: 70%">
+            <h2>Unique Selling Points</h2>
+            <ul>
+                <li>The existence of an adapter that alters the quantity of ingredients according to the amount of beverage the user wants to produce.</li>
+                <li>The "Hands-Free" option allows the preparation instructions to be read aloud with pauses, and the user can then proceed or repeat the step using voice commands.</li>
+                <li>A discussion forum for the community to share experiences with beverages, comment on opinions about drinks, and post their own recipes on a dedicated page.</li>
+                <li>A fun, youthful and distinct design.</li>
+            </ul>
+        </div>
+
+        <div style="flex-basis: 30%">
+            <h2>Authors</h2>
+            <div class="authors">
+            {% for author in page.authors %}
+                <div class="author_links">
+                    <h3> {{ author.name }} </h3>
+                    <div>
+                        {% if author.github %}
+                            <a href="{{ author.github }}" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        {% endif %}
+                        {% if author.linkedin %}
+                            <a href="{{ author.linkedin }}" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+    </div>
+    
+    <hr class="divider">
 
 ## Logo emblem
-<div id="logo_div">
-    <div>
-        <p>After the brainstorming session where the concept of an alchemist mixing chemical elements and searching for the "potion of long life" was launched, as already mentioned, we needed a form of representation that united the modern with the ancient or the mystical alchemist.</p>
-        <p>In the first attempt, the focus was mainly on the diamond shapes present in the alcohol symbol, and later a glass was added to represent the adaptation to the world of cocktails.</p>
+
+    <div id="logo_div">
+
+        <div>
+            <p>After the brainstorming session where the concept of an alchemist mixing chemical elements and searching for the "potion of long life" was launched, as already mentioned, we needed a form of representation that united the modern with the ancient or the mystical alchemist.</p>
+            <p>In the first attempt, the focus was mainly on the diamond shapes present in the alcohol symbol, and later a glass was added to represent the adaptation to the world of cocktails.</p>
+        </div>
+
+        <img src="{{'/img/logo_alquimista.svg' | relative_url}}">
+
     </div>
-    <img src="{{'/img/logo_alquimista.svg' | relative_url}}">
-</div>
 
 ## Color palette
-<div id="cp_div">
-    <img src="{{'/img/cp_alquimista.svg' | relative_url}}">
-    <div>
-        <p>From the initial stages of developing the idea, we envisioned a nighttime bar setting with a dark palette of contrasting colors to simulate neon signs. To achieve this, we used complementary colors: purple, which brought elegance and luxury to the background (conveying the luxury associated with cocktails, which are more than just drinks), and yellow, to add youthfulness, animation, and prominence (creating the sensation of something shining like a neon sign).</p>
+
+    <div id="cp_div">
+    
+        <img src="{{'/img/cp_alquimista.svg' | relative_url}}">
+    
+        <div>
+            <p>From the initial stages of developing the idea, we envisioned a nighttime bar setting with a dark palette of contrasting colors to simulate neon signs. To achieve this, we used complementary colors: purple, which brought elegance and luxury to the background (conveying the luxury associated with cocktails, which are more than just drinks), and yellow, to add youthfulness, animation, and prominence (creating the sensation of something shining like a neon sign).</p>
+        </div>
+    
     </div>
-</div>
 
 ## Typography
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
-    <div>
-        <h2 class="lily-script-one-regular">Lily Script One</h2>
-        <p class="lily-script-one-regular" style="text-align: center; text-indent: 0">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
-    </div>
-    <div>
-        <h2 class="poppins-bold">Poppins</h2>
-        <p class="poppins-regular" style="text-align: center; text-indent: 0">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
-    </div>
-</div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
 
-<hr class="divider">
+        <div>
+            <h2 class="lily-script-one-regular">Lily Script One</h2>
+            <p class="lily-script-one-regular" style="text-align: center; text-indent: 0">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        </div>
+
+        <div>
+            <h2 class="poppins-bold">Poppins</h2>
+            <p class="poppins-regular" style="text-align: center; text-indent: 0">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        </div>
+
+    </div>
+    
+    <hr class="divider">
 
 ## Target-audience
 

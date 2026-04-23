@@ -4,10 +4,10 @@ title: "My devblog #02 Low and High-fi"
 date: 2025-07-30
 image: /img/postimg/p_md_300725.jpg
 excerpt: Hoje eu comecei a fazer os wireframes Low-fi e também os High-fi’s...
-tags: [mydevblog]
+tags: [devblog]
 ---
 
-<img src="{{'/img/postimg/p_md_300725.jpg' | relative_url}}" alt="">
+    <img src="{{'/img/postimg/p_md_300725.jpg' | relative_url}}" alt="">
 
 Hoje eu comecei a fazer os wireframes Low-fi e também os High-fi’s. Eu já havia iniciado os Low-fi’s do mobile uns dias atrás, mas hoje fiz eles para a versão desktop também. Não fiz de todas as páginas, apenas da home page e da página onde estarão todos os posts. Estava um pouco impaciente de apenas fazer os wireframes de baixa fidelidade e queria ver o blog ganhar alguma forma e cor para ganhar algum incentivo, então não fiz o das páginas restantes ainda, mas durante a semana devo aproveitar algum tempo livre para fazer sketches e montar os wireframes também.
 
