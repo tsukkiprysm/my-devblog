@@ -3,20 +3,20 @@ layout: posts
 title: "My devblog #02 Low and High-fi"
 date: 2025-07-30
 image: /img/postimg/p_md_300725.jpg
-excerpt: Hoje eu comecei a fazer os wireframes Low-fi e também os High-fi’s...
+excerpt: Today I started making the Low-fi wireframes and also the High-fi’s...
 tags: [devblog]
 ---
 
-    <img src="{{'/img/postimg/p_md_300725.jpg' | relative_url}}" alt="">
+<img src="{{'/img/postimg/p_md_300725.jpg' | relative_url}}" alt="">
 
-Hoje eu comecei a fazer os wireframes Low-fi e também os High-fi’s. Eu já havia iniciado os Low-fi’s do mobile uns dias atrás, mas hoje fiz eles para a versão desktop também. Não fiz de todas as páginas, apenas da home page e da página onde estarão todos os posts. Estava um pouco impaciente de apenas fazer os wireframes de baixa fidelidade e queria ver o blog ganhar alguma forma e cor para ganhar algum incentivo, então não fiz o das páginas restantes ainda, mas durante a semana devo aproveitar algum tempo livre para fazer sketches e montar os wireframes também.
+Today I started making the Low-fi wireframes and also the High-fi’s. I had already started the mobile Low-fi’s a few days ago, but today I made them for the desktop version as well. I didn’t do all the pages, just the home page and the page where all the posts will be. I was a bit impatient just doing the low-fidelity wireframes and wanted to see the blog take some shape and color to get some motivation, so I haven’t done the remaining pages yet, but during the week I should take some free time to sketch and assemble those wireframes too.
 
-A primeira coisa que fiz para os de alta fidelidade foi procurar por uma fonte.
+The first thing I did for the high-fidelity ones was look for a font.
 
-Me custou um pouquinho de tempo, navegando pelas fontes do figma e procurando inspirações no pinterest para ver se encontro alguma que combine com o site. Fontes são sempre chatas de escolher pois, apesar de haver tantas, tem sempre uma pequena quantidade que realmente ficam bem com cada site, uma vez que a estética e a vibe influenciam muito.
+It took me a bit of time, browsing through Figma fonts and looking for inspiration on Pinterest to see if I could find one that matches the site. Fonts are always tedious to choose because, even though there are so many, there is always only a small amount that actually look good with each site, since the aesthetics and vibe influence things a lot.
 
-Ainda anotei algumas que considerei ficarem boas, como a Questrial e a Oxygen Mono. Porém, eu queria uma vibe um pouco mais “computacional”, uma vez que é um blog para anotar o processo de desenvolvimento de sites, programas, e até mesmo jogos e etc, que eu fizer daqui para frente. Além disso, pretendo utilizar imagens pixealizadas para decorar o blog, dando ênfase a essa vibe “computacional”.
+I still noted down a few that I thought looked good, like Questrial and Oxygen Mono. However, I wanted a slightly more "computational" vibe, since it is a blog to record the development process of sites, programs, and even games, etc., that I make from now on. Additionally, I intend to use pixelated images to decorate the blog, emphasizing this "computational" vibe.
 
-Foi então que me veio a brilhante ideia: porque não utilizar a Courier New, que é a fonte utilizadas nos editores IDE? Não há nada com uma estética mais computacional do que código e programação. Selecionei a fonte e vi que afinal gostava dela ali, e combinava com o que eu tinha mentalizado. Portanto, a deixei. A fonte que estão vendo agora ao ler isso é exatamente esta.
+That’s when I had a brilliant idea: why not use Courier New, which is the font used in IDE editors? There is nothing with a more computational aesthetic than code and programming. I selected the font and saw that, after all, I liked it there, and it matched what I had in mind. Therefore, I kept it. The font you are seeing now while reading this is exactly that one.
 
-Ainda pretendo brincar e testar os layouts que tenho. Gosto de como estão, mas preciso considerar algumas outras coisas como chamar a atenção ou como explicitar o objetivo desse blog e também me apresentar e apresentar o que faço. Deixo tudo exposto na homepage? Uso alguma estratégia para chamar a atenção para um botão que leva a outra página? Não sei bem, mas são coisas que irei pensando e implementando no design e no código.
+I still intend to play around and test the layouts I have. I like how they are, but I need to consider a few other things like how to grab attention or how to make the objective of this blog explicit, as well as introducing myself and what I do. Do I leave everything exposed on the homepage? Do I use some strategy to draw attention to a button that leads to another page? I'm not quite sure, but these are things I will be thinking about and implementing in the design and the code.

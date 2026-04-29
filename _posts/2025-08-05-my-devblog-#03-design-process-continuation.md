@@ -3,16 +3,16 @@ layout: posts
 title: "My devblog #03 Design Process: Continuation"
 date: 2025-08-05
 image: /img/postimg/p_md_050825.jpg
-excerpt: Estive com alguma dificuldade de decidir como ficaria a aparência...
+excerpt: I have been having some difficulty deciding what the appearance...
 tags: [devblog]
 ---
 
-    <img src="{{'/img/postimg/p_md_050825.jpg' | relative_url}}" alt="">
+<img src="{{'/img/postimg/p_md_050825.jpg' | relative_url}}" alt="">
 
-Estive com alguma dificuldade de decidir como ficaria a aparência da página inicial deste blog. Fiz alguns experimentos e fui brincando com a disposição dos elementos para tentar encontrar a melhor solução e acho que consegui.
+I have been having some difficulty deciding what the appearance of this blog's home page would look like. I did some experiments and played around with the arrangement of elements to try to find the best solution, and I think I managed it.
 
-Eu queria usar como inspiração para o layout as templates bonitinhas que geralmente fazem para o notion, mas elas geralmente envolvem muitas imagens e eu não queria por imagens decorativas demais. Além disso, minha ideia inicial de o lado esquerdo ser só para as notícias e o lado direito ser meramente decorativo com calendarios e relogios e gifs e etc parecia ser um pouco sem graça, ainda mais após tirar o esboço em papel e colocar no figma.
+I wanted to use the cute templates usually made for Notion as inspiration for the layout, but they generally involve many images and I didn’t want to use too many decorative images. Besides, my initial idea of the left side being only for news and the right side being merely decorative with calendars, clocks, GIFs, etc., seemed a bit dull, especially after taking the sketch from paper and putting it into Figma.
 
-Porém, notei que o web e o mobile estavam se distanciando um pouco em questão de disposição de elementos, e decidi tentar deixar o web um pouco mais parecido com o mobile, ou seja: colocar o gif e o texto de bem vindo ocupando todo o topo, um “divisor” de página contendo o projeto no qual estou atualmente trabalhando em baixo e os últimos posts a seguir à essa divisão. Dessa forma, como pretendo utilizar o bootstrap, fica mais simples utilizar as colunas sem ter que fazer mais de um elemento e esconder eles nos diferentes ecrãs. Para além disso, inclui uma seção para mostrar outros projetos já na página inicial, que ficará ao lado dos últimos posts, e no mobile naturalmente ficará por baixo.
+However, I noticed that the web and mobile versions were drifting apart in terms of element placement, and I decided to try to make the web version look a bit more like the mobile one, meaning: placing the GIF and the welcome text occupying the entire top, a page "divider" containing the project I am currently working on underneath, and the latest posts following that division. This way, since I intend to use Bootstrap, it is simpler to use columns without having to create more than one element and hide them on different screens. In addition, I included a section to show other projects right on the home page, which will sit next to the latest posts, and on mobile will naturally sit underneath.
 
-Penso que, considerando os objetivos e a simplicidade desse blog, não preciso fazer coisas muito mais mirabolantes e assim já está bom para a home page. Vou avançar para as outras páginas e, se mais ideias surgirem mais para a frente, posso sempre modificar este design.
+I think that, considering the objectives and the simplicity of this blog, I don't need to do anything much more extravagant and this is already good for the home page. I will move on to the other pages and, if more ideas come up later on, I can always modify this design.
