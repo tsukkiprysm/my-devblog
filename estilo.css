@@ -321,7 +321,7 @@ select:focus {
     font-size: clamp(0.80rem, 1.20vw, 2.20rem);
 }
 
-#project_page h1, h2, h3 {
+#project_page h1, #project_page h2, #project_page h3 {
     text-align: center;
 }
 #project_page h2 {

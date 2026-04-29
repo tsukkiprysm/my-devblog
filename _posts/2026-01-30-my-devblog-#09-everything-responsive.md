@@ -3,7 +3,7 @@ layout: posts
 title: "My devblog #09 Everything responsive"
 date: 2026-01-30
 image: /img/postimg/p_md_05082.jpg
-excerpt: after a day spent doing a tedious media sociology assignment for university...
+excerpt: To start with, I still haven't decided on the final design...
 tags: [devblog]
 ---
 

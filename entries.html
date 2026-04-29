@@ -19,13 +19,19 @@ permalink: /entries/
         </select>
     </div>
     <section id="entriesList">
-        <div class="entry_box">
-            <div class="entry_text">
-                <h2>Header Title</h2>
-                <p>June 28, 2025</p>
-                <p class="normal_fs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        {% for post in site.posts %}
+        <a href="{{ post.url | relative_url }}" class="box_link">
+            <div class="entry_box">
+                <div class="entry_text">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.date | date: "%B %d, %Y"}}</p>
+                    <p class="normal_fs">{{ post.excerpt }}</p>
+                </div>
+                {% if post.image %}
+                <img src="{{ post.image | relative_url }}" alt="">
+                {% endif %}
             </div>
-            <img src="{{'/img/entry_placeholder.jpg' | relative_url}}">
-        </div>
+        </a>
+        {% endfor %}
     </section>
 </div>
