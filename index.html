@@ -44,7 +44,9 @@ title: Grazi's Devblog
         </div>
         <div id="project_column">
             <h1>Other projects</h1>
-            {% for project in site.projects limit:2 %}
+            {% assign projetos_hp = site.projects | where_exp: "project", "project.order != 1" %}
+            {% assign projetos_ordenados = projetos_hp | sort: "order" %}
+            {% for project in projetos_ordenados limit:2 %}
             <a href="{{ project.url | relative_url }}" class="box_link">
                 <div class="project_box">
                     <img src="{{ project.image | relative_url }}" alt="">

@@ -2,10 +2,12 @@
 layout: posts
 title: "Eclipse #01 Birth of an idea"
 date: 2026-03-28
-image: /img/postimg/p_md_26049.jpg
+image: /img/postimg/p_ec_260328.jpg
 excerpt: This semester, for the PBL (Project Based Learning) of the 2D Games...
 tags: [eclipse]
 ---
+
+<img src="{{'/img/postimg/p_ec_260328.jpg' | relative_url}}" alt="">
 
 This semester, for the PBL (Project Based Learning) of the 2D Games, Fundamentals of Interaction, and Strategic Communication courses, we were tasked with creating a game in groups of 4 students, based on a theme chosen by everyone: transformation.
 
