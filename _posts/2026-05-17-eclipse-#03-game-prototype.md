@@ -1,23 +1,25 @@
 ---
 layout: posts
-title: "Eclipse #02 Game prototype"
+title: "Eclipse #03 Game prototype"
 date: 2026-05-17
-image: /img/postimg/p_ec_260429.jpg
-excerpt: The game is moving forward, fortunately. We are a bit behind in my opinion...
+image: /img/postimg/p_ec_260517.jpg
+excerpt: I thought Blender was THE most confusing software, but Unity managed to steal that title...
 tags: [eclipse]
 ---
 
-<img src="{{'/img/postimg/p_ec_260429.jpg' | relative_url}}" alt="">
+<img src="{{'/img/postimg/p_ec_260517.jpg' | relative_url}}" alt="">
 
 These last two weeks were something special. I thought Blender was THE most confusing software, and the easiest one to accidentally mess everything up in, that I knew of, but Unity (and especially using Unity together with GitHub in a team) managed to steal that title. I can't even count on both hands the number of times work was lost between merges, pushes, and pulls, having to be redone from scratch all over again.
 
 It was quite stressful, but fortunately, we managed to present a rudimentary version of the prototype on 05/06 and deliver an even better version on 05/14. The leap we made in 1 week was scary, really; basically, we had to do a whole redesign of tiles and sprites, on top of creating quite a few more.
 
 The prototype we presented on the 6th looked like this:
-[video]
+
+<iframe class="videos" src="https://www.youtube.com/embed/nXwUEqD166c?si=NjwCsXoskUYVA6Er" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 And the one we delivered 1 week later:
-[video]
+
+<iframe class="videos" src="https://www.youtube.com/embed/0LDfl074B6k?si=yhBItAg4iG_ROu0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I am quite proud of our progress. I am almost certain I am a bit more nearsighted than I was two weeks ago, after so many hours straight in front of the computer screen, but it was worth it.
 

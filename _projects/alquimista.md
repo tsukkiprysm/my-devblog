@@ -15,7 +15,7 @@ authors:
     linkedin: https://www.linkedin.com/in/gabrielazevedo73/
   - name: Nicole Santos
     github:
-figma_embed: '<iframe src="https://embed.figma.com/proto/Lc6e4yEsKano28SJp7rKcC/O-Alquimista?node-id=1164-540&viewport=21%2C457%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1164%3A540&show-proto-sidebar=1&page-id=1133%3A390&embed-host=share" allowfullscreen></iframe>'
+figma_embed: '<iframe class="project_preview" src="https://embed.figma.com/proto/Lc6e4yEsKano28SJp7rKcC/O-Alquimista?node-id=1164-540&viewport=21%2C457%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1164%3A540&show-proto-sidebar=1&page-id=1133%3A390&embed-host=share" allowfullscreen></iframe>'
 title_font: "'Lily Script One', system-ui"
 title_weight: "400"
 ---
